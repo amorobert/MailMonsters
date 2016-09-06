@@ -6,6 +6,7 @@ class CreateEmail < ActiveRecord::Migration[5.0]
       t.string :subject
       t.string :body
       t.string :labels
+      t.integer :user_id
       t.datetime :date_received
 
       t.timestamps
